@@ -45,7 +45,7 @@ object Build : BuildType({
     }
 
     requirements {
-        contains("system.agent.name", "tc")
+        contains("system.agent.name", "dev")
     }
 
     steps {
@@ -101,7 +101,7 @@ object Test_2 : BuildType({
     }
 
     requirements {
-        contains("system.agent.name", "tc")
+        contains("system.agent.name", "dev")
     }
 
     features {
